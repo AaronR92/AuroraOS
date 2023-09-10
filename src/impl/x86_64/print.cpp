@@ -3,6 +3,7 @@
 //
 
 #include "../../interface/print.h"
+#include "../../interface/vga.h"
 #include "stdint.h"
 
 #include "stddef.h"
