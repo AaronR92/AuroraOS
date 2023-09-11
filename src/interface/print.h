@@ -12,6 +12,7 @@ extern "C" {
     void print_clear();
     void print_char(char character);
     void print_str(const char* str);
+    void print_str_newline(const char* str);
     void print_set_color(uint8_t foreground, uint8_t background);
 
 };

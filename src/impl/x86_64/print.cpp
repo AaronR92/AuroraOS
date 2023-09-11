@@ -88,6 +88,11 @@ extern "C" {
         }
     }
 
+    void print_str_newline(const char* str) {
+        print_str(str);
+        print_char('\n');
+    }
+
     void print_set_color(uint8_t foreground, uint8_t background) {
         color = foreground + (background << 4);
     }
