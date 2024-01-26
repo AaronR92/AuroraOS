@@ -10,7 +10,7 @@ docker build .\buildenv\ -t auroraos-buildenv
 ```
 2. Run created container
 ```
-docker run --rm -it -v cd:/root/env auroraos-buildenv
+docker run --rm -it -v '<path_to_project>:/root/env' auroraos-buildenv
 ```
 4. In container, for building our `.iso` file, run the `make` command
 ```
